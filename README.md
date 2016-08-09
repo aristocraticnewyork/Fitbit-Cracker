@@ -8,7 +8,7 @@ Download MAMP (free version), install it. (To have a local webserver)
 Make sure cURL is enabled
 Go in "Preferences" and check the port for Apache (Mine is 8888)
 Put the servers of MAMP on.
-Now download this project and save all the files in your "Applications/MAMP/htdocs" folder, so that you can access index.php
+Now download this project (ZIP Archive : https://github.com/kangoo13/Fitbit-Cracker/archive/master.zip) and save all the files in your "Applications/MAMP/htdocs" folder, so that you can access index.php
 with "Applications/MAMP/htdocs/index.php"
 Once done, open the "Applications/MAMP/htdocs/accounts" file and put all the accounts you want to crack in it with this shape:
 email:pass
@@ -25,5 +25,8 @@ to finish them all.
 
 Windows install is exactly the same but for windows there is WAMP or EasyPHP as you want.
 
+# Problems
+
+If there are any problems, feel free to use the Issues github page of this project and describe every details of your issue.
 
 Feel free to contact me for ideas, donations or whatever you want : aurelien.schiltz@epitech.eu
