@@ -25,5 +25,8 @@ to finish them all.
 
 Windows install is exactly the same but for windows there is WAMP or EasyPHP as you want.
 
+# Problems
+
+If there are any problems, feel free to use the Issues github page of this project and describe every details of your issue.
 
 Feel free to contact me for ideas, donations or whatever you want : aurelien.schiltz@epitech.eu
