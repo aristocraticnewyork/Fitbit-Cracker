@@ -26,13 +26,15 @@ foreach ($accounts as $account) {
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 
     $page = curl_exec($ch);
+    if ($page == false)
+        $page = curl_exec($ch);
     if (!preg_match('/<form method="post" name="login".*?<\/form>/is', $page, $form)) {
-        die('Failed to find log in form!');
+        echo 'Failed to find log in form!';
     }
     $form = $form[0];
 
     if (!preg_match('/action=(?:\'|")?([^\s\'">]+)/i', $form, $action)) {
-        die('Failed to find login form url');
+        echo 'Failed to find log in form!';
     }
 
     $URL2 = $action[1];
